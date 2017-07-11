@@ -1,1 +1,45 @@
-Hi
+<html>
+	<head>
+		<style>
+			body, html {
+				margin: 0;
+			}
+			body {
+				background-image: url(../image/pattern.png);
+				background-repeat: repeat;
+				/*background-size: 500px 500px; */
+				
+			}
+			.overlay {
+				background-color: rgba(0,0,0,.8);
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				z-index: -1;
+			}
+			.main {
+				display: flex;
+				height: 100vh;
+				flex-direction: column;
+			}
+			.fill {
+				flex: 1;
+			}
+			.content {
+				text-align: center;
+				color: white;
+				font-family: Arial, Helvetica, sans-serif;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="overlay"></div>
+		<div class="main">
+			<div class="fill"></div>
+			<div class="content"><h1>Coming Soon</div>
+			<div class="fill"></div>
+		</div>
+	</body>
+</html>
