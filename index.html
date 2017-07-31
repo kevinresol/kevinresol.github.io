@@ -4,46 +4,249 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<title>Kevin Leung</title>
-		<style>
-			body, html {
-				margin: 0;
-			}
-			body {
-				background-image: url(../image/pattern.png);
-				background-repeat: repeat;
-				/*background-size: 500px 500px; */
-				
-			}
-			.overlay {
-				background-color: rgba(0,0,0,.8);
-				position: absolute;
-				top: 0;
-				bottom: 0;
-				left: 0;
-				right: 0;
-				z-index: -1;
-			}
-			.main {
-				display: flex;
-				height: 100vh;
-				flex-direction: column;
-			}
-			.fill {
-				flex: 1;
-			}
-			.content {
-				text-align: center;
-				color: white;
-				font-family: Arial, Helvetica, sans-serif;
-			}
-		</style>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.11/semantic.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css"></link>
 	</head>
 	<body>
 		<div class="overlay"></div>
-		<div class="main">
-			<div class="fill"></div>
-			<div class="content"><h1>Coming Soon</div>
-			<div class="fill"></div>
+		<div class="ui container" style="max-width:650px!important; color:white; padding-top: 2em">
+			
+			<div class="ui unstackable grid">
+				
+				<!-- Profile -->
+					<div class="sixteen wide column">
+						<div class="ui inverted divider"></div>
+						<h1 class="ui centered inverted header">Profile</h1>
+						<div class="ui inverted divider"></div>
+					</div>
+					<div class="seven wide column">
+						<img class="ui image" src="https://secure.gravatar.com/avatar/b3fdc4ce7ec167f196ddd48525bd1745?s=350">
+					</div>
+					<div class="inverted nine wide column">
+						<div class="ui inverted large list">
+							<div class="item">
+								<i class="id card icon"></i>
+								<div class="content">
+									<div class="header">Name</div>
+									<div class="description">Kevin Leung</div>
+								</div>
+							</div>
+							<div class="item">
+								<i class="marker icon"></i>
+								<div class="content">
+									<div class="header">Location</div>
+									<div class="description">Hong Kong</div>
+								</div>
+							</div>
+							<div class="item">
+								<i class="github icon"></i>
+								<div class="content">
+									<div class="header">GitHub</div>
+									<div class="description"><a href="https://github.com/kevinresol">https://github.com/kevinresol</a></div>
+								</div>
+							</div>
+							<div class="item">
+								<i class="telegram icon"></i>
+								<div class="content">
+									<div class="header">Telegram</div>
+									<div class="description">@kevinresol</div>
+								</div>
+							</div>
+							<div class="item">
+								<i class="twitter icon"></i>
+								<div class="content">
+									<div class="header">Twitter</div>
+									<div class="description"><a href="https://twitter.com/kevinresol">https://twitter.com/kevinresol</a></div>
+								</div>
+							</div>
+							<div class="item">
+								<i class="mail icon"></i>
+								<div class="content">
+									<div class="header">Email</div>
+									<div class="description">kevinresol@gmail.com</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				<!-- Profile End -->
+				
+				<!-- Cetah -->
+					<div class="sixteen wide column">
+						<div class="ui inverted divider"></div>
+						<h1 class="ui centered inverted header">Works</h1>
+						<div class="ui inverted divider"></div>
+						<h2 class="ui inverted header">App Server - Cetah</h2>
+					</div>
+					<div class="seven wide column">
+						<img class="ui image" src="/image/cetah.jpg">
+					</div>
+					<div class="inverted nine wide column">
+						<div class="ui inverted large list">
+							<div class="item">
+								<i class="calendar icon"></i>
+								<div class="content">
+									<div class="header">Year</div>
+									<div class="description">2016</div>
+								</div>
+							</div>
+							<div class="item">
+								<i class="cubes icon"></i>
+								<div class="content">
+									<div class="header">Type</div>
+									<div class="description">App Server / REST API</div>
+								</div>
+							</div>
+							<div class="item">
+								<i class="info icon"></i>
+								<div class="content">
+									<div class="header">Description</div>
+									<div class="description">Transportation service app</div>
+								</div>
+							</div>
+							<div class="item">
+								<i class="code icon"></i>
+								<div class="content">
+									<div class="header">Written in</div>
+									<div class="description">Haxe</div>
+								</div>
+							</div>
+							<div class="item">
+								<i class="settings icon"></i>
+								<div class="content">
+									<div class="header">Runtime</div>
+									<div class="description">Node.js</div>
+								</div>
+							</div>
+							<div class="item">
+								<i class="linkify icon"></i>
+								<div class="content">
+									<div class="header">Link</div>
+									<div class="description">N/A (Already Shutdown)</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				<!-- Cetah End -->
+				
+				<!-- ViDe Site -->
+					<div class="sixteen wide column">
+						<div class="ui inverted divider"></div>
+						<h2 class="ui inverted header">Website with CMS - ViDe Insight</h2>
+					</div>
+					<div class="seven wide column">
+						<img class="ui image" src="/image/vide-insight.png">
+					</div>
+					<div class="inverted nine wide column">
+						<div class="ui inverted large list">
+							<div class="item">
+								<i class="calendar icon"></i>
+								<div class="content">
+									<div class="header">Year</div>
+									<div class="description">2017</div>
+								</div>
+							</div>
+							<div class="item">
+								<i class="cubes icon"></i>
+								<div class="content">
+									<div class="header">Type</div>
+									<div class="description">Website / CMS</div>
+								</div>
+							</div>
+							<div class="item">
+								<i class="info icon"></i>
+								<div class="content">
+									<div class="header">Description</div>
+									<div class="description">A showcase website.</div>
+								</div>
+							</div>
+							<div class="item">
+								<i class="code icon"></i>
+								<div class="content">
+									<div class="header">Written in</div>
+									<div class="description">PHP</div>
+								</div>
+							</div>
+							<div class="item">
+								<i class="settings icon"></i>
+								<div class="content">
+									<div class="header">Runtime</div>
+									<div class="description">PHP</div>
+								</div>
+							</div>
+							<div class="item">
+								<i class="linkify icon"></i>
+								<div class="content">
+									<div class="header">Link</div>
+									<div class="description"><a href="http://videinsight.asia/">http://videinsight.asia</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				
+				<!-- ViDe Site End -->
+				
+				<!-- Sony Game -->
+					<div class="sixteen wide column">
+						<div class="ui inverted divider"></div>
+						<h2 class="ui inverted header">Two-screen game - ViDe Insight / Sony</h2>
+					</div>
+					<div class="seven wide column">
+						<img class="ui image" src="/image/sony-game.png">
+					</div>
+					<div class="inverted nine wide column">
+						<div class="ui inverted large list">
+							<div class="item">
+								<i class="calendar icon"></i>
+								<div class="content">
+									<div class="header">Year</div>
+									<div class="description">2017</div>
+								</div>
+							</div>
+							<div class="item">
+								<i class="cubes icon"></i>
+								<div class="content">
+									<div class="header">Type</div>
+									<div class="description">Game</div>
+								</div>
+							</div>
+							<div class="item">
+								<i class="info icon"></i>
+								<div class="content">
+									<div class="header">Description</div>
+									<div class="description">A game for Sony's booth at ACGHK 2017</div>
+								</div>
+							</div>
+							<div class="item">
+								<i class="code icon"></i>
+								<div class="content">
+									<div class="header">Written in</div>
+									<div class="description">Haxe</div>
+								</div>
+							</div>
+							<div class="item">
+								<i class="settings icon"></i>
+								<div class="content">
+									<div class="header">Runtime</div>
+									<div class="description">Javascript / WebGL</div>
+								</div>
+							</div>
+							<div class="item">
+								<i class="linkify icon"></i>
+								<div class="content">
+									<div class="header">Link</div>
+									<div class="description">N/A (On-site project)</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				<!-- Sony Game End -->
+				
+			</div><!-- ui list -->
+			<div class="ui inverted segment"></div>
+			
 		</div>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.11/semantic.min.js"></script>
 	</body>
 </html>

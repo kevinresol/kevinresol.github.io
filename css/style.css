@@ -1,0 +1,38 @@
+body, html {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image: url(../image/pattern.png);
+	background-attachment: fixed;
+	background-repeat: repeat;
+}
+.overlay {
+	background-color: rgba(0,0,0,.8);
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+}
+.main {
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+}
+.fill {
+	flex: 1;
+}
+
+.ui.inverted.segment {
+	background-color: rgba(0,0,0,0);
+}
+
+.icon {
+	width: 2em!important;
+}
+
+.ui.image {
+	border: 3px solid white;
+}
